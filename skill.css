@@ -1,0 +1,21 @@
+.skills {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    padding-top: 1.5em;
+    text-align: center;
+}
+
+.skill-description {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 80%;
+    text-align: end;
+    margin: 1.5em; 
+    
+}
+.skill-description h1{
+     color: #f1a600;
+     
+}
+

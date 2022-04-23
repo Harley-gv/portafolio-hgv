@@ -3,6 +3,7 @@
     width: 80vw;
     height: 80vh;
     text-align: center;
+    padding-top: 1.5em;
 }
 
 .exp-container {
@@ -22,6 +23,12 @@
     
 }
 
+.exp-img-text p {
+    
+    color: #e5e5e5;
+    opacity: 80%;
+    
+}
 .exp-img-year {
    margin: 0em;
    height: 100%;
