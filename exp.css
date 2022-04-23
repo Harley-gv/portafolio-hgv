@@ -1,0 +1,38 @@
+.experiencie {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    text-align: center;
+}
+
+.exp-container {
+     display: flex; 
+     text-align: center;
+     justify-content: space-around;
+}
+
+.exp-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.exp-img-text {
+    
+    margin: 1em;
+    
+}
+
+.exp-img-year {
+   margin: 0em;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.exp-text-year {
+    margin: 1.7em;
+}
+
+.exp-text-year h3 {
+    padding: 1px 1px ;
+}
