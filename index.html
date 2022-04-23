@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./skill.css" />
     <link rel="stylesheet" href="./portfolio.css" />
     <link rel="stylesheet" href="./contact.css" />
+    <link rel="stylesheet" href="./menu-mobile.css" />
+
 
     <title>Portafolio Harley</title>
 </head>
@@ -21,7 +23,16 @@
     <div class="container">
         <header>
             <nav class="navbar">
+                <button class="open-menu" aria-label="Abrir menú">
+                    <img src="./img/menu 1.svg" alt="abrir menú" />
+                </button>
+
                 <ul class="menu">
+                    
+                    <button class="close-menu" aria-label="Cerrar menú">
+                        <img src="./img/close-icon.svg" alt="cerrar menú" />
+                    </button>
+
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">Acerca de mi</a></li>
                     <li><a href="#skills">Mis habilidades</a></li>
@@ -40,9 +51,11 @@
                     la tecnología. Me gusta combinar mi pasión por aprender y mis
                     habilidades en programación para construir el futuro de la web.
                 </p>
-                <img src="./img/ant-design_instagram-filled.svg" alt="" />
-                <img src="./img/ant-design_twitter-outlined.svg" alt="" />
-                <img src="./img/cib_linkedin-in.svg" alt="" />
+
+                <a href="#instagram"> <img src="./img/ant-design_instagram-filled.svg" alt="" /></a>
+                <a href="#twiter"><img src="./img/ant-design_twitter-outlined.svg" alt="" /></a>
+                <a href="#linkedin"><img src="./img/cib_linkedin-in.svg" alt="" /></a>
+               
             </div>
 
             <img src="./img/yo.png" alt="harley-picture" id="hgv" />
@@ -189,9 +202,6 @@
                 </div>
 
             </div>
-    
-
-                
                 
           
 
@@ -204,5 +214,5 @@
     </footer>
     
 </body>
-
+ <script src="./index.js"></script>
 </html>
