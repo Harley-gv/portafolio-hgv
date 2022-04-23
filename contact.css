@@ -1,5 +1,31 @@
 .contact {
+  text-align: center;
   margin: 0 auto;
   width: 80vw;
-  height: 80vh;
+  
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  margin: 0 auto;
+  
+}
+
+.contact-icons {
+     display: flex;
+     justify-content: space-between;
+     margin: 0 15em;
+     
+}
+.contact h2 {
+  margin: 2em;
+}
+footer {
+  margin: 1em;
+  padding: 2em;
+  text-align: center;
+  opacity: 50%;
 }

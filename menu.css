@@ -11,5 +11,14 @@
 }
 
 .navbar {
-    padding: 2em;
+    padding: 1em;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #191c32;
+    
 }

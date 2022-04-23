@@ -11,8 +11,8 @@ body {
     font-family: 'Inter', sans-serif;
     color: #fff;
     background-color: #191c32;
-    height: 100vh;
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
 }
 
 a {

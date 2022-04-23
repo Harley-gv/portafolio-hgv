@@ -1,11 +1,13 @@
 .experiencie {
     margin: 0 auto;
     width: 80vw;
-    height: 80vh;
     text-align: center;
     padding-top: 1.5em;
 }
 
+.experiencie h2 {
+    margin:  2em;
+}
 .exp-container {
      display: flex; 
      text-align: center;
